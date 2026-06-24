@@ -178,6 +178,7 @@ body {
     border-radius: 100px;
     background-color: #9B0000;
     color: white;
+    font-size: larger;
 }
 
 
@@ -236,14 +237,16 @@ body {
     border: none;
     border-radius: 7px;
     display: flex;
-    align-items:  center;
-    justify-content: center;margin-right: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
 }
 
-.see-all-button:hover{
+.see-all-button:hover {
     transition: .5s;
 }
-.see-all-button:hover{
+
+.see-all-button:hover {
     background-color: rgba(170, 177, 177, 0.434);
 }
 
@@ -333,4 +336,97 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 10px;
+}
+
+.p3 {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    text-align: center;
+    font-size: small;
+}
+
+
+.see-more-button2 {
+    height: 27px;
+    width: 85px;
+    color: white;
+    background-color: rgb(155, 0, 0);
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+
+.secondparentbox {
+    width: 84.2%;
+    height: 368px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    justify-self: center;
+    margin-top: 60px;
+}
+
+.deliverybox {
+    width: 30%;
+    height: 50%;
+    background-color: rgba(242, 242, 242, 0.703);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.orderonlinebox {
+    width: 30%;
+    height: 40%;
+    background-color: rgba(242, 242, 242, 0.703);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.variouspaymentbox {
+    width: 30%;
+    height: 50%;
+    background-color: rgba(242, 242, 242, 0.703);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.pd .fa-truck {
+    padding-bottom: 25px;
+}
+
+
+.fa-headphones {
+    padding-bottom: 25px;
+}
+
+.fa-shield-halved {
+    padding-bottom: 25px;
+}
+
+.pd h4 {
+    padding-bottom: 5px;
+}
+
+.pd p {
+    font-size: larger;
 }
