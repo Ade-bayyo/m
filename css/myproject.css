@@ -22,7 +22,7 @@ body {
     justify-content: space-around;
     position: fixed;
     top: 0;
-
+    z-index: 9999;
 }
 
 .logo {
@@ -429,4 +429,102 @@ body {
 
 .pd p {
     font-size: larger;
+}
+
+
+.featuredsection {
+    width: 100%;
+    height: 333px;
+    display: flex;
+    justify-self: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    width: 333px;
+    height: 333px;
+    overflow: hidden;
+    position: relative;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background: bottom/cover no-repeat;
+    transition: transform 0.4s ease-in-out;
+}
+
+.image::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 0.4s ease-in-out;
+    position: absolute;
+
+}
+
+.card:hover .image::after {
+    background-color: rgba(0, 0, 0, 0.482);
+}
+
+.card:hover .image {
+    transform: scale(1.4);
+}
+
+.text {
+    width: 100%;
+    height: 43%;
+    background-color: transparent;
+    color: white;
+    position: absolute;
+    justify-items: flex-end;
+    font-size: 3.1vmin;
+    bottom: 0;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+
+.text .p1 {
+    width: 80%;
+    background-color: transparent;
+    text-align: right;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.text .p2 {
+    color: white;
+    font-size: 3vmin;
+
+}
+
+.card .text .p2 span {
+    transform: translateX(-5px);
+    transition: .3s;
+    display: inline-block;
+}
+
+.card:hover .text .p2 span{
+    transform: translateX(0);
+}
+
+.txt{
+    height: 30%;
+}
+
+.background1 {
+    background-image: url("../images/flowersforlove.png");
+}
+
+.background2 {
+    background-image: url("../images/flowertosaysorry.jpg");
+}
+
+.background3 {
+    background-image: url("../images/bridal.png");
 }
