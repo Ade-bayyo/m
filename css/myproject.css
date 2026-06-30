@@ -369,7 +369,7 @@ h .p1 {
 
 .secondparentbox {
     width: 84.2%;
-    height: 400px;
+    height: 150px;
     /* background-color: aqua; */
     display: flex;
     justify-content: space-between;
@@ -379,7 +379,7 @@ h .p1 {
 
 .divbox {
     width: 30%;
-    height: 50%;
+    height: 80%;
     background-color: rgb(240, 240, 240);
     text-align: center;
     display: flex;
@@ -390,7 +390,7 @@ h .p1 {
 }
 
 .orderonlinebox {
-    height: 40%;
+    height: 70%;
 }
 
 .pd {
@@ -512,6 +512,94 @@ h .p1 {
 }
 
 
+.card3 {
+    width: 333px;
+    height: 333px;
+    overflow: hidden;
+    position: relative;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background: bottom/cover no-repeat;
+    transition: transform 0.4s ease-in-out;
+}
+
+.image::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 0.4s ease-in-out;
+    position: absolute;
+
+}
+
+.card:hover .image::after {
+    background-color: rgba(0, 0, 0, 0.482);
+}
+
+.card:hover .image {
+    transform: scale(1.4);
+}
+
+.text3 {
+    width: 100%;
+    height: 43%;
+    background-color: transparent;
+    color: white;
+    position: absolute;
+    justify-items: flex-end;
+    font-size: 3.1vmin;
+    bottom: 0;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+
+.text3 .p1 {
+    width: 80%;
+    background-color: transparent;
+    text-align: right;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.text3 .p2 {
+    color: white;
+    font-size: 3vmin;
+
+}
+
+.card3 .text3 .p2 span {
+    transform: translateX(-5px);
+    transition: .3s;
+    display: inline-block;
+}
+
+.card3:hover .text3 .p2 span {
+    transform: translateX(0);
+}
+
+.txt3 {
+    height: 30%;
+}
+
+.background1 {
+    background-image: url("../images/flowersforlove.png");
+}
+
+.background2 {
+    background-image: url("../images/flowertosaysorry.jpg");
+}
+
+.background3 {
+    background-image: url("../images/bridal.png");
+}
+
+
 
 .whybox {
     width: 100%;
@@ -522,6 +610,7 @@ h .p1 {
     flex-direction: column;
     margin-top: 50px;
     background-color: white;
+    font-size: 2vmin;
 }
 
 .whysend {
@@ -531,6 +620,7 @@ h .p1 {
     justify-self: center;
     justify-content: space-between;
     margin-top: 30px;
+    font-size: 2vmin;
 }
 
 .toptext {
@@ -552,6 +642,81 @@ h .p1 {
 }
 
 
+.whybox2 {
+    width: 100%;
+    height: 355px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    background-color: white;
+    font-size: 3vmin;
+}
+
+.whysend2 {
+    width: 84.2%;
+    height: 328px;
+    display: flex;
+    justify-self: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    font-size: 2vmin;
+}
+
+.toptext2 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.whysendcontent2 {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.cont2p1 {
+    margin-bottom: 10px;
+}
+
+
+
+.notjustbox {
+    width: 100%;
+    height: 479px;
+    background-color: #68203B;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    font-size: 2vmin;
+}
+
+.notjusttextbox {
+    height: 100%;
+    width: 65%;
+    background-color: rgb(224, 224, 236);
+    display: flex;
+    justify-content: center;
+}
+
+.notjustimagebox{
+    height: 100%;
+}
+
+.notjustp {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(224, 224, 236);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
 
 
 
@@ -606,11 +771,14 @@ h .p1 {
 
 
     .secondparentbox {
+        height: 400px;
         flex-direction: column;
         gap: 1.6vw;
+        font-size: 0.1vmin;
     }
 
     .divbox {
+        height: 30%;
         width: 100%;
     }
 
@@ -629,10 +797,41 @@ h .p1 {
         text-align: center;
     }
 
+    .featuredsection {
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+
+    .card3 {
+        display: none;
+    }
+
+    .whybox {
+        margin-top: -30px;
+        height: 750px;
+    }
+
+    .whysend {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
 
 
-    .whybox{
-        
+    .whybox2 {
+        margin-top: 40px;
+        height: 800px;
+        font-size: 5vmin;
+    }
+
+    .whysend2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .notjustbox{
+        display: none;
     }
 }
 
@@ -661,6 +860,7 @@ h .p1 {
     }
 
     .secondparentbox {
+        height: 400px;
         flex-direction: column;
         gap: 1.6vw;
     }
@@ -679,8 +879,55 @@ h .p1 {
         height: 270px;
     }
 
+    .featuredsection {
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+
+    /* .featuredsection {
+        justify-content: center;
+        gap: 20px;
+    /* }  */
+
+    .featuredsection .card3 {
+        width: 60%;
+        height: 270px;
+    }
+
+    .card3 {
+        display: none;
+    }
+
     .popularbox {
         text-align: center;
+    }
+
+
+    .whybox {
+        margin-top: -30px;
+        height: 900px;
+    }
+
+    .whysend {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+
+    .whybox2 {
+        margin-top: 50px;
+        height: 1000px;
+    }
+
+    .whysend2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .notjustbox{
+        display: none;
     }
 
 }
@@ -716,6 +963,7 @@ h .p1 {
     }
 
     .secondparentbox {
+        height: 450px;
         flex-direction: column;
         gap: 1.6vw;
     }
@@ -730,8 +978,44 @@ h .p1 {
         gap: 20px;
     }
 
+    .featuredsection {
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+
+
+    .card3 {
+        display: none;
+    }
+
     .popularbox {
         text-align: center;
+    }
+
+    .whybox {
+        margin-top: 10px;
+        height: 1000px;
+    }
+
+    .whysend {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .whybox2 {
+        margin-top: 60px;
+        height: 1250px;
+    }
+
+    .whysend2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+    }
+
+    .notjustbox{
+        display: none;
     }
 
 }
@@ -747,13 +1031,50 @@ h .p1 {
 
     }
 
+    .secondparentbox {
+        height: 400px;
+        flex-direction: column;
+        gap: 1.6vw;
+    }
+
+    .divbox {
+        width: 100%;
+    }
+
+
     .featuredsection {
         justify-content: center;
         gap: 10px;
     }
 
+
     .popularbox {
+        margin-top: 30px;
         text-align: center;
+    }
+
+
+    .whybox {
+        margin-top: 360px;
+        height: 1100px;
+    }
+
+    .whysend {
+        flex-direction: column;
+        align-items: center;
+        gap: 90px;
+    }
+
+
+    .whybox2 {
+        margin-top: 70px;
+        height: 1210px;
+    }
+
+    .whysend2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
     }
 
 }
