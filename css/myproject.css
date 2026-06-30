@@ -10,6 +10,7 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     height: 100vh;
+    position: relative;
     background-position: right;
     background-attachment: fixed;
 }
@@ -26,24 +27,25 @@ body {
 }
 
 .logo {
-    height: 40px;
+    height: 3vw;
     width: auto;
     align-self: center;
 }
 
 .navbox1 {
     height: 100%;
-    width: 55%;
+    width: 60vw;
     font-weight: 500;
     display: flex;
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    font-size: 20px;
+    font-size: 2.2vmin;
+    gap: 0.3vmin;
 }
 
 .navbox1 .fa-chevron-down {
-    font-size: small;
+    font-size: 1vmin;
 }
 
 .fa-sistrix {
@@ -67,8 +69,8 @@ body {
 
 .navbox2 {
     height: 100%;
-    width: 13%;
-    font-size: small;
+    width: 17%;
+    font-size: 1.5vmin;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -100,7 +102,7 @@ body {
 
 .boxcontent {
     height: 64%;
-    width: 55%;
+    width: 55vw;
     /* background-color: rgb(69, 62, 53); */
     display: flex;
     justify-content: space-between;
@@ -122,17 +124,19 @@ body {
     width: 80%;
     background-color: white;
     display: flex;
-    justify-content: space-around;
-    gap: 75px;
+    justify-content: space-between;
     align-items: center;
     border-radius: 5px;
+    padding: 0 2px;
+    font-size: 1.8vmin;
 }
 
 .button-content {
     color: white;
     background-color: #c51010;
     height: 44px;
-    width: 120px;
+    /* width: 120px; */
+    padding: 0 3vw;
     border-radius: 5px;
     display: flex;
     justify-content: center;
@@ -142,7 +146,7 @@ body {
 
 .lastboxcontent {
     /* padding: 3px 1px; */
-    width: 680px;
+    width: 100%;
     height: auto;
     background-color: rgba(255, 253, 253, 0.616);
     color: rgb(88, 87, 87);
@@ -160,14 +164,14 @@ body {
 }
 
 .naira {
-    height: 6.5vh;
-    width: 3.499vw;
+    height: 50px;
+    width: 50px;
     background-color: rgba(233, 230, 232, 0.212);
     display: flex;
     justify-content: center;
     align-items: center;
     position: fixed;
-    right: 0px;
+    right: 2vw;
     top: 140px;
 }
 
@@ -183,20 +187,20 @@ body {
 
 
 .whatsapp {
-    height: 7.8vh;
-    width: 4.34vw;
+    height: 50px;
+    width: 50px;
     background-color: rgba(128, 128, 128, 0);
     display: flex;
     justify-content: center;
     align-items: center;
     position: fixed;
-    right: 28px;
-    top: 600px;
+    right: 7vw;
+    bottom: 7vw;
 }
 
 .whatsapp-button {
     border: none;
-    border-radius: 250px;
+    border-radius: 100%;
     size: 100px;
 }
 
@@ -208,11 +212,11 @@ body {
 
 .parentbox {
     width: 84.2%;
-    height: 368px;
+    padding: 20px 0;
     /* background-color: aqua; */
     display: flex;
     justify-self: center;
-    margin-top: 56px;
+    margin-top: 0.3vw;
     gap: 20px;
     flex-direction: column;
 }
@@ -220,6 +224,11 @@ body {
 .popularbox {
     width: 100%;
     height: auto;
+
+}
+
+.popularbox h2 {
+    font-size: 2.5vmin;
 }
 
 .popularbox2 {
@@ -252,21 +261,22 @@ body {
 
 .itemsbox {
     width: 100%;
-    height: 325px;
-    /* background-color: burlywood; */
+    height: 100%;
     display: flex;
     justify-content: space-between;
 }
 
 .freshflowers {
-    width: 246px;
-    height: 100%;
+    width: 24%;
+    height: 333px;
     background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
+    gap: 1vw;
     flex-direction: column;
     border: 1px solid rgba(0, 0, 0, 0.082);
     border-radius: 3px;
+    padding-bottom: 10px;
 
 }
 
@@ -279,6 +289,8 @@ body {
     flex-direction: column;
     border-radius: 3px;
     overflow: hidden;
+    margin-bottom: 10px;
+
 }
 
 .fresh-flowers-image img {
@@ -295,24 +307,15 @@ body {
 .fresh-flower-text1 {
     height: 30%;
     width: 100%;
-    /* background-color: #9B0000; */
     padding: 10px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+
 }
 
-.fresh-flower-text2 {
-    height: 40%;
-    width: 100%;
-    /* background-color: #9B0000; */
-    padding: 10px 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.p1 {
+h .p1 {
     font-weight: 500;
     text-align: center;
 
@@ -343,7 +346,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    gap: 40px;
+
     text-align: center;
     font-size: small;
 }
@@ -366,62 +369,41 @@ body {
 
 .secondparentbox {
     width: 84.2%;
-    height: 368px;
+    height: 400px;
     /* background-color: aqua; */
     display: flex;
     justify-content: space-between;
     justify-self: center;
-    margin-top: 60px;
+    margin-top: 20px;
 }
 
-.deliverybox {
+.divbox {
     width: 30%;
     height: 50%;
-    background-color: rgba(242, 242, 242, 0.703);
+    background-color: rgb(240, 240, 240);
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
+    font-size: 2vmin;
 }
-
 
 .orderonlinebox {
-    width: 30%;
     height: 40%;
-    background-color: rgba(242, 242, 242, 0.703);
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
 }
 
-.variouspaymentbox {
-    width: 30%;
-    height: 50%;
-    background-color: rgba(242, 242, 242, 0.703);
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.pd {
+    padding: 20px;
 }
 
-
-.pd .fa-truck {
-    padding-bottom: 25px;
-}
-
-
-.fa-headphones {
-    padding-bottom: 25px;
-}
-
+.fa-truck,
+.fa-headphones,
 .fa-shield-halved {
-    padding-bottom: 25px;
+    padding-bottom: 18px;
 }
+
+
 
 .pd h4 {
     padding-bottom: 5px;
@@ -509,11 +491,11 @@ body {
     display: inline-block;
 }
 
-.card:hover .text .p2 span{
+.card:hover .text .p2 span {
     transform: translateX(0);
 }
 
-.txt{
+.txt {
     height: 30%;
 }
 
@@ -528,3 +510,252 @@ body {
 .background3 {
     background-image: url("../images/bridal.png");
 }
+
+
+
+.whybox {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    background-color: white;
+}
+
+.whysend {
+    width: 84.2%;
+    height: 328px;
+    display: flex;
+    justify-self: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.toptext {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.whysendcontent {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.cont1p1 {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+@media (max-width:460px) {
+    .second-bg {
+        background: url('../images/Elegant\ Floral\ Arrangement\ with\ White\ Roses\ and\ Baby\'s\ Breath.jpg') 0 70%;
+
+    }
+
+    .boxcontent {
+        width: 73%;
+        height: 45%;
+    }
+
+    .boxcontent2 {
+        width: 100%;
+        height: 40%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 3vw;
+        gap: 3vw;
+        margin-bottom: 20px;
+        /* grid-template-rows: 1fr 1fr; */
+    }
+
+    .boxcontent2 button.button-content {
+        grid-column: 1/3;
+    }
+
+    .itemsbox {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2vw;
+
+    }
+
+    .freshflowers {
+        width: 100%;
+
+    }
+
+    .fresh-flower-text1 {
+        height: unset;
+        padding: 30px 10px;
+    }
+
+    .fresh-flower-text1 .p3 {
+        justify-content: center;
+        gap: 1.3vw;
+    }
+
+
+    .secondparentbox {
+        flex-direction: column;
+        gap: 1.6vw;
+    }
+
+    .divbox {
+        width: 100%;
+    }
+
+
+    .featuredsection {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .featuredsection .card {
+        width: 70%;
+        height: 250px;
+    }
+
+    .popularbox {
+        text-align: center;
+    }
+
+
+
+    .whybox{
+        
+    }
+}
+
+@media (min-width:461px) and (max-width:660px) {
+    .boxcontent {
+        width: 73%;
+        height: 45%;
+    }
+
+    .boxcontent2 {
+        width: 100%;
+
+    }
+
+    .itemsbox {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2vw;
+
+
+
+    }
+
+    .freshflowers {
+        width: 100%;
+    }
+
+    .secondparentbox {
+        flex-direction: column;
+        gap: 1.6vw;
+    }
+
+    .divbox {
+        width: 100%;
+    }
+
+    .featuredsection {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .featuredsection .card {
+        width: 60%;
+        height: 270px;
+    }
+
+    .popularbox {
+        text-align: center;
+    }
+
+}
+
+
+@media (min-width:661px) and (max-width:860px) {
+    .boxcontent {
+        width: 70%;
+        height: 50%;
+    }
+
+    .boxcontent2 {
+        width: 90%;
+
+    }
+
+    .itemsbox {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2vw;
+
+    }
+
+    .freshflowers {
+        width: 100%;
+    }
+
+
+
+    .itemsbox .freshflowers:first-child .fresh-flowers-image {
+        height: 100%;
+
+    }
+
+    .secondparentbox {
+        flex-direction: column;
+        gap: 1.6vw;
+    }
+
+    .divbox {
+        width: 100%;
+    }
+
+
+    .featuredsection {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .popularbox {
+        text-align: center;
+    }
+
+}
+
+@media (min-width:861px) and (max-width:1060px) {
+    .boxcontent {
+        width: 70%;
+        height: 60%;
+    }
+
+    .boxcontent2 {
+        width: 80%;
+
+    }
+
+    .featuredsection {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .popularbox {
+        text-align: center;
+    }
+
+}
+
+@media (min-width:1061px) {}
