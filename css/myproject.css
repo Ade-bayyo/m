@@ -703,7 +703,7 @@ h .p1 {
     justify-content: center;
 }
 
-.notjustimagebox{
+.notjustimagebox {
     height: 100%;
 }
 
@@ -830,7 +830,16 @@ h .p1 {
         gap: 20px;
     }
 
-    .notjustbox{
+    .notjusttextbox {
+        height: 100%;
+        width: 100%;
+        background-color: rgb(224, 224, 236);
+        display: flex;
+        justify-content: center;
+        font-size: 3vmin;
+    }
+
+    .notjustimagebox {
         display: none;
     }
 }
@@ -926,7 +935,16 @@ h .p1 {
         gap: 20px;
     }
 
-    .notjustbox{
+    .notjusttextbox {
+        height: 100%;
+        width: 100%;
+        background-color: rgb(224, 224, 236);
+        display: flex;
+        justify-content: center;
+        font-size: 3vmin;
+    }
+
+    .notjustimagebox {
         display: none;
     }
 
@@ -1014,7 +1032,16 @@ h .p1 {
         gap: 100px;
     }
 
-    .notjustbox{
+    .notjusttextbox {
+        height: 100%;
+        width: 100%;
+        background-color: rgb(224, 224, 236);
+        display: flex;
+        justify-content: center;
+        font-size: 2.5vmin;
+    }
+
+    .notjustimagebox {
         display: none;
     }
 
