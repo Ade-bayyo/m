@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url("../images/bg-flower.jpg");
+    background-image: url(/images/bg-flower.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     height: 100vh;
@@ -15,18 +15,10 @@ body {
     background-attachment: fixed;
 }
 
-.plants-page-body {
-    background-image: linear-gradient(135deg, rgba(255, 247, 251, 0.95), rgba(239, 232, 244, 0.95));
-    background-repeat: repeat;
-    background-size: auto;
-    height: auto;
-    min-height: 100vh;
-}
-
 .nav {
     width: 100%;
     height: 75px;
-    background-color: rgb(177, 25, 25);
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-around;
     position: fixed;
@@ -67,16 +59,6 @@ body {
     cursor: pointer;
 }
 
-.navbox1 a {
-    color: inherit;
-    text-decoration: none;
-}
-
-.logo-link {
-    display: flex;
-    align-items: center;
-}
-
 .ul-hover .fa-chevron-down {
     transition: .5s;
 }
@@ -104,7 +86,7 @@ body {
     height: 493px;
     width: 100%;
     background-color: aquamarine;
-    background-image: url("../images/under nav bar image.jpg");
+    background-image: url(/images/under\ nav\ bar\ image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -837,199 +819,6 @@ h .p1 {
 
 
 
-.plants-page {
-    padding: 120px 7% 80px;
-}
-
-.plants-hero {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 30px;
-    background: rgba(255, 255, 255, 0.9);
-    border-radius: 24px;
-    padding: 40px;
-    box-shadow: 0 15px 35px rgba(104, 32, 59, 0.12);
-    margin-bottom: 35px;
-}
-
-.plants-hero-content {
-    flex: 1;
-}
-
-.plants-kicker {
-    color: #9b0000;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
-    margin-bottom: 12px;
-    font-size: 0.9rem;
-}
-
-.plants-hero h1 {
-    font-size: clamp(1.8rem, 2.7vw, 2.8rem);
-    color: #68203b;
-    margin-bottom: 12px;
-}
-
-.plants-hero p {
-    color: #5b5b5b;
-    line-height: 1.6;
-    margin-bottom: 18px;
-}
-
-.plants-searchbar {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    background: #f6f0f3;
-    padding: 12px 15px;
-    border-radius: 999px;
-    width: min(100%, 430px);
-    box-shadow: inset 0 0 0 1px rgba(155, 0, 0, 0.12);
-}
-
-.plants-searchbar input {
-    border: none;
-    background: transparent;
-    width: 100%;
-    outline: none;
-    font-size: 0.95rem;
-}
-
-.plants-hero-image {
-    flex: 0 0 320px;
-    animation: floatUp 3s ease-in-out infinite;
-}
-
-.plants-hero-image img {
-    width: 100%;
-    border-radius: 20px;
-    object-fit: cover;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.16);
-}
-
-.plants-grid-section {
-    background: rgba(255, 255, 255, 0.9);
-    border-radius: 24px;
-    padding: 30px;
-    box-shadow: 0 15px 35px rgba(104, 32, 59, 0.12);
-}
-
-.plants-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-}
-
-.plant-card {
-    background: #fff;
-    border-radius: 18px;
-    overflow: hidden;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.08);
-    animation: fadeUp 0.6s ease both;
-    position: relative;
-}
-
-.plant-card:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 16px 28px rgba(155, 0, 0, 0.16);
-}
-
-.premium-card {
-    background: linear-gradient(145deg, #ffffff, #fcf3f8);
-    border: 1px solid rgba(155, 0, 0, 0.12);
-    box-shadow: 0 0 0 1px rgba(255,255,255,0.5) inset, 0 14px 30px rgba(155, 0, 0, 0.12);
-}
-
-.premium-card::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    border-radius: inherit;
-    box-shadow: 0 0 20px rgba(255, 131, 215, 0.25);
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    pointer-events: none;
-}
-
-.premium-card:hover::before {
-    opacity: 1;
-    animation: glowPulse 1.6s infinite;
-}
-
-.plant-card-image {
-    height: 220px;
-    overflow: hidden;
-}
-
-.plant-card-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.4s ease;
-}
-
-.plant-card:hover .plant-card-image img {
-    transform: scale(1.08);
-}
-
-.plant-card-info {
-    padding: 16px;
-}
-
-.plant-card-info h3 {
-    color: #68203b;
-    margin-bottom: 8px;
-}
-
-.plant-card-info p {
-    color: #6f6f6f;
-    font-size: 0.95rem;
-    line-height: 1.5;
-    margin-bottom: 10px;
-}
-
-.plant-card-info span {
-    display: inline-block;
-    background: #f5e5eb;
-    color: #9b0000;
-    border-radius: 999px;
-    padding: 6px 10px;
-    font-size: 0.8rem;
-    font-weight: 600;
-}
-
-.no-results {
-    text-align: center;
-    margin-top: 18px;
-    color: #9b0000;
-    font-weight: 600;
-}
-
-@keyframes floatUp {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-8px); }
-}
-
-@keyframes fadeUp {
-    from { opacity: 0; transform: translateY(12px); }
-    to { opacity: 1; transform: translateY(0); }
-}
-
-@keyframes glowPulse {
-    0%, 100% { box-shadow: 0 0 18px rgba(255, 131, 215, 0.18); }
-    50% { box-shadow: 0 0 32px rgba(255, 131, 215, 0.34); }
-}
-
-.plants-footer {
-    text-align: center;
-    padding: 24px 20px 40px;
-    color: #7c4a5b;
-    font-size: 0.95rem;
-}
-
 @media (max-width:460px) {
     .second-bg {
         background: url('../images/Elegant\ Floral\ Arrangement\ with\ White\ Roses\ and\ Baby\'s\ Breath.jpg') 0 70%;
@@ -1175,24 +964,6 @@ h .p1 {
         display: none;
         z-index: none;
     }
-
-    .plants-page {
-        padding: 100px 4% 60px;
-    }
-
-    .plants-hero {
-        flex-direction: column;
-        padding: 24px;
-    }
-
-    .plants-hero-image {
-        flex-basis: auto;
-        width: 100%;
-    }
-
-    .plants-grid {
-        grid-template-columns: 1fr 1fr;
-    }
 }
 
 @media (min-width:461px) and (max-width:660px) {
@@ -1299,11 +1070,14 @@ h .p1 {
         display: none;
     }
 
+    .getintouchimage {
+        display: none;
+    }
 
 
     .getintouchbox {
         width: 90%;
-        height: 270vmin;
+        height: 1250px;
         justify-content: none;
         justify-self: none;
         align-items: none;
@@ -1322,10 +1096,6 @@ h .p1 {
     .getintouchimage {
         display: none;
         z-index: none;
-    }
-
-    .plants-grid {
-        grid-template-columns: 1fr 1fr;
     }
 
 }
@@ -1426,31 +1196,9 @@ h .p1 {
     }
 
 
-   .getintouchbox {
-        width: 90%;
-        height: 270vmin;
-        justify-content: none;
-        justify-self: none;
-        align-items: none;
-        flex-direction: none;
-        gap: 20px;
-    }
-
-    .getintouchcontent {
-        justify-items: none;
-        width: 100%;
-        height: 100;
-        font-size: 3vmin;
-        padding: 10px ;
-    }
-
     .getintouchimage {
         display: none;
         z-index: none;
-    }
-
-    .plants-grid {
-        grid-template-columns: 1fr 1fr;
     }
 }
 
@@ -1509,29 +1257,6 @@ h .p1 {
         flex-direction: column;
         align-items: center;
         gap: 100px;
-    }
-
-    .getintouchbox {
-        width: 90%;
-        height: 270vmin;
-        justify-content: none;
-        justify-self: none;
-        align-items: none;
-        flex-direction: none;
-        gap: 20px;
-    }
-
-    .getintouchcontent {
-        justify-items: none;
-        width: 100%;
-        height: 100;
-        font-size: 3vmin;
-        padding: 10px ;
-    }
-
-    .getintouchimage {
-        display: none;
-        z-index: none;
     }
 
 }
