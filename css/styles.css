@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url(/images/bg-flower.jpg);
+    background-image: url(/img/bg-flower.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     height: 100vh;
@@ -86,7 +86,7 @@ body {
     height: 493px;
     width: 100%;
     background-color: aquamarine;
-    background-image: url(/images/under\ nav\ bar\ image.jpg);
+    background-image: url(/img/under\ nav\ bar\ image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -500,15 +500,15 @@ h .p1 {
 }
 
 .background1 {
-    background-image: url("../images/flowersforlove.png");
+    background-image: url("../img/flowersforlove.png");
 }
 
 .background2 {
-    background-image: url("../images/flowertosaysorry.jpg");
+    background-image: url("../img/flowertosaysorry.jpg");
 }
 
 .background3 {
-    background-image: url("../images/bridal.png");
+    background-image: url("../img/bridal.png");
 }
 
 
@@ -588,15 +588,15 @@ h .p1 {
 }
 
 .background1 {
-    background-image: url("../images/flowersforlove.png");
+    background-image: url("../img/flowersforlove.png");
 }
 
 .background2 {
-    background-image: url("../images/flowertosaysorry.jpg");
+    background-image: url("../img/flowertosaysorry.jpg");
 }
 
 .background3 {
-    background-image: url("../images/bridal.png");
+    background-image: url("../img/bridal.png");
 }
 
 
@@ -821,7 +821,7 @@ h .p1 {
 
 @media (max-width:460px) {
     .second-bg {
-        background: url('../images/Elegant\ Floral\ Arrangement\ with\ White\ Roses\ and\ Baby\'s\ Breath.jpg') 0 70%;
+        background: url('../img/Elegant\ Floral\ Arrangement\ with\ White\ Roses\ and\ Baby\'s\ Breath.jpg') 0 70%;
 
     }
 
