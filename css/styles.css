@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url(/img/bg-flower.jpg);
+    background-image: url("../img/bg-flower.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     height: 100vh;
@@ -104,7 +104,7 @@ body {
     height: 493px;
     width: 100%;
     background-color: aquamarine;
-    background-image: url(/img/under\ nav\ bar\ image.jpg);
+    background-image: url("../img/undernavbarimage.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -1032,7 +1032,7 @@ h .p1 {
 
 @media (max-width:460px) {
     .second-bg {
-        background: url('../img/Elegant\ Floral\ Arrangement\ with\ White\ Roses\ and\ Baby\'s\ Breath.jpg') 0 70%;
+        background: url('../img/elegantfloralarrangementwithwhiterosesandbaby\'sbreath.jpg') 0 70%;
 
     }
 
