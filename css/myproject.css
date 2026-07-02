@@ -718,6 +718,104 @@ h .p1 {
     padding: 20px;
 }
 
+.getintouchbox {
+    width: 90%;
+    height: 1450px;
+    /* background-color: blue; */
+    /* margin: 100px 89px; */
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    margin-top: 70px;
+    flex-direction: row;
+    font-size: 2vmin;
+}
+
+.getintouchimage {
+    width: 10%;
+    height: 550px;
+    /* background-size: contain; */
+    /* background-color: red; */
+    display: flex;
+    align-self: center;
+    border-radius: 15px;
+    margin-right: 320px;
+    z-index: 100;
+}
+
+.getintouchcontent {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(245, 242, 239);
+    display: flex;
+    gap: 15px;
+    /* align-items: center; */
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 50px 170px;
+    font-size: 2vmin;
+}
+
+
+.address {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.addresstext {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: rgba(0, 0, 0, 0.849);
+}
+
+.addresstextp1,
+.fa-location-dot,
+.fa-envelope {
+    color: rgba(67, 85, 118, 0.772);
+}
+
+.fa-location-dot,
+.fa-envelope {
+    color: rgba(35, 51, 82, 0.886);
+}
+
+
+.addresstextp {
+    color: rgba(54, 54, 54, 0.619);
+}
+
+.addresscontacts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.adsress-sayhello-button {
+    color: rgb(8, 244, 59);
+    background-color: #f7f7f7;
+    height: 44px;
+    padding: 12px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    border: solid 1.5px rgb(8, 244, 59);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -842,6 +940,30 @@ h .p1 {
     .notjustimagebox {
         display: none;
     }
+
+
+    .getintouchbox {
+        width: 90%;
+        height: 1250px;
+        justify-content: none;
+        justify-self: none;
+        align-items: none;
+        flex-direction: none;
+        gap: 20px;
+    }
+
+    .getintouchcontent {
+        justify-items: none;
+        width: 100%;
+        height: 100;
+        font-size: 3vmin;
+        padding: 10px ;
+    }
+
+    .getintouchimage {
+        display: none;
+        z-index: none;
+    }
 }
 
 @media (min-width:461px) and (max-width:660px) {
@@ -948,6 +1070,34 @@ h .p1 {
         display: none;
     }
 
+    .getintouchimage {
+        display: none;
+    }
+
+
+    .getintouchbox {
+        width: 90%;
+        height: 1250px;
+        justify-content: none;
+        justify-self: none;
+        align-items: none;
+        flex-direction: none;
+        gap: 20px;
+    }
+
+    .getintouchcontent {
+        justify-items: none;
+        width: 100%;
+        height: 100;
+        font-size: 3vmin;
+        padding: 10px ;
+    }
+
+    .getintouchimage {
+        display: none;
+        z-index: none;
+    }
+
 }
 
 
@@ -1045,6 +1195,11 @@ h .p1 {
         display: none;
     }
 
+
+    .getintouchimage {
+        display: none;
+        z-index: none;
+    }
 }
 
 @media (min-width:861px) and (max-width:1060px) {
