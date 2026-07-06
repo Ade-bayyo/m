@@ -1,3 +1,6 @@
+## Adebayo Oluwapelumi Daniel.
+
+
 # Regal Flower
 
 A modern, attractive landing page for a flower and gifts delivery brand. The project showcases a stylish homepage with a navigation bar, hero section, featured product categories, and gift suggestions for special occasions.
