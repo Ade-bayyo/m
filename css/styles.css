@@ -189,7 +189,7 @@ body {
     justify-content: center;
     align-items: center;
     position: fixed;
-    right: 2vw;
+    right: 0vw;
     top: 140px;
 }
 
@@ -212,7 +212,7 @@ body {
     justify-content: center;
     align-items: center;
     position: fixed;
-    right: 7vw;
+    right: 2vw;
     bottom: 7vw;
 }
 
